@@ -4,7 +4,7 @@
 specfile_path: fedora/python-fedorainfra-ansible-messages.spec
 
 # add or remove files that should be synced
-synced_files:
+files_to_sync:
     - .packit.yaml
 
 # name in upstream package repository/registry (e.g. in PyPI)
